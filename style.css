@@ -1,0 +1,22 @@
+.content {
+    margin-top: 200px;
+    position: absolute;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.main {
+    padding-left: 300px;
+    position: fixed;
+}
+
+.output {
+    margin-left: 200px;
+}
+
+.c2a {
+    text-align: center;
+    font-size: 48px;
+}
