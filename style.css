@@ -1,22 +1,34 @@
+
 .content {
     margin-top: 200px;
-    position: absolute;
 }
 
 .title {
     font-size: 36px;
 }
-
 .main {
+    top:100px;
     padding-left: 300px;
     position: fixed;
 }
 
 .output {
-    margin-left: 200px;
+    position:absolute;
+    height:300px;
+    width:200px;
+    left:320px;
 }
 
 .c2a {
+    font-family:sans-serif;
     text-align: center;
+    margin-right:100px;
     font-size: 48px;
+}
+.input{
+    position:absolute;
+    left:620px;
+    height:300px;
+    width:200px;
+
 }
