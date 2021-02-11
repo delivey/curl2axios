@@ -1,4 +1,7 @@
-
+body,html{
+    margin:0;
+    padding: 0;
+}
 .content {
     margin-top: 200px;
 }
@@ -13,10 +16,11 @@
 }
 
 .output {
+    margin-top:100px;
     position:absolute;
-    height:300px;
-    width:200px;
-    margin-left:350px;
+    height:200px;
+    width:400px;
+    margin-left:400px;
 }
 
 .c2a {
@@ -25,17 +29,31 @@
     font-size: 48px;
 }
 .input{
+    margin-top:100px;
     position:absolute;
-    margin-left:30%;
-    height:300px;
-    width:200px;
+    margin-left:-70px;
+    height:200px;
+    width:400px;
 
+}
+#description{
+    font-family: sans-serif;
+    color:#505050;
+    font-weight:1.3;
+    text-align:center;
 }
 @media only screen and (min-width:1300px){
     .input{
-        margin-left:31%;
+        margin-left:430px;
     }
     .output{
-         margin-left:360px;
+        margin-left:-50px;
     }
+}
+.header1{
+    position:absolute;
+    top:0;
+    background:#DCDCDC;
+    width:100%;
+    border-bottom:2.8px solid #808080;
 }
