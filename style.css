@@ -16,11 +16,9 @@ body,html{
 }
 
 .output {
-    margin-top:100px;
+    margin-top:20vh;
     position:absolute;
-    height:200px;
-    width:400px;
-    margin-left:400px;
+    margin-left:35vw;
 }
 
 .c2a {
@@ -29,26 +27,15 @@ body,html{
     font-size: 48px;
 }
 .input{
-    margin-top:100px;
+    margin-top:20vh;
     position:absolute;
-    margin-left:-70px;
-    height:200px;
-    width:400px;
-
+    margin-left: 5vw;
 }
 #description{
     font-family: sans-serif;
     color:#505050;
     font-weight:1.3;
     text-align:center;
-}
-@media only screen and (min-width:1300px){
-    .input{
-        margin-left:430px;
-    }
-    .output{
-        margin-left:-50px;
-    }
 }
 .header1{
     position:absolute;
