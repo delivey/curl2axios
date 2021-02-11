@@ -1,22 +1,46 @@
+body,html{
+    margin:0;
+    padding: 0;
+}
 .content {
     margin-top: 200px;
-    position: absolute;
 }
 
 .title {
     font-size: 36px;
 }
-
 .main {
+    top:100px;
     padding-left: 300px;
     position: fixed;
 }
 
 .output {
-    margin-left: 200px;
+    margin-top:20vh;
+    position:absolute;
+    margin-left:35vw;
 }
 
 .c2a {
+    font-family:sans-serif;
     text-align: center;
     font-size: 48px;
+}
+.input{
+    margin-top:20vh;
+    position:absolute;
+    margin-left: 5vw;
+}
+#description{
+    font-family: sans-serif;
+    color:#505050;
+    font-weight:1.3;
+    text-align:center;
+}
+.header1{
+    position:absolute;
+    top:0;
+    background:#DCDCDC;
+    width:100%;
+    border-bottom:2.8px solid #808080;
 }

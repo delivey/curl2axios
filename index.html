@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>curl2axios</title>
-    
+
 </head>
 <body>
-    <h1 class="c2a">curl2axios</h1>
+    <div class="header1">
+        <h1 class="c2a">curl2axios</h1>
+        <p id="description">A little utility to convert curl requests to Node.js axios requests.</p>
+    </div>
     <div class="content">
         <div class="main">
             <textarea id="input" class="input" rows="20" cols="70" onchange="start_parse()" placeholder="curl here"></textarea>
-
             <textarea id="output" class="output" rows="20" cols="70" placeholder="output here"></textarea>
         </div>
     </div>
@@ -23,10 +25,10 @@
     <script>
 
     function start_parse() {
-        let script = document.getElementById("input").value; 
+        let script = document.getElementById("input").value;
         script = script.replace(/\\/g, "")
         let parsed = parse_curl(script)
-        document.getElementById("output").innerHTML = parsed; 
+        document.getElementById("output").innerHTML = parsed;
     }
 
     </script>
