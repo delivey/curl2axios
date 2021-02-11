@@ -16,19 +16,26 @@
     position:absolute;
     height:300px;
     width:200px;
-    left:320px;
+    margin-left:350px;
 }
 
 .c2a {
     font-family:sans-serif;
     text-align: center;
-    margin-right:100px;
     font-size: 48px;
 }
 .input{
     position:absolute;
-    left:620px;
+    margin-left:30%;
     height:300px;
     width:200px;
 
+}
+@media only screen and (min-width:1300px){
+    .input{
+        margin-left:31%;
+    }
+    .output{
+         margin-left:360px;
+    }
 }
