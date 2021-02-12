@@ -90,3 +90,25 @@ body,html{
     width:100%;
     border-bottom:2.8px solid #808080;
 }
+#footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: #DCDCDC;
+    border-top: 2.8px solid #808080;
+    padding-top:8px;
+}
+#text{
+    color: #505050;
+    font-family:sans-serif;
+    font-weight: 1.5;
+    font-size:16px;
+    text-align: center;
+}
+#link-none{
+    color: #505050;
+    text-decoration: none;
+}
+#link-none:hover{
+    text-decoration: underline;
+}
