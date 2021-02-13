@@ -76,11 +76,17 @@ body,html{
 }
 @media only screen and (min-width:1700px){
     .input{
-        margin-left:10vw;
+        margin-left:-10vw;
+        height:750px;
+        width:700px;
+        margin-top:10vh;
 
     }
     .output{
+        height:750px;
+        width:700px;
         margin-left:35vw;
+        margin-top:10vh;
     }
 }
 .header1{
