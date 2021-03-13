@@ -62,7 +62,7 @@ axios({
 
     let final_string = 
 `}).then(response => {
-    log(response.status)
+    console.log(response.data)
 })
 `
     output += headers_string
